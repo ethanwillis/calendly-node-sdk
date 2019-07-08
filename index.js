@@ -5,7 +5,7 @@ module.exports = class Calendly {
 		this.api_key = api_key
 		this.rp_options = {
 			headers: {
-				"X-TOKEN": this.api_key
+				"X-TOKEN": this.api_key,
 				"User-Agent": "node-calendly-sdk"
 			},
 			json: true
