@@ -8,6 +8,11 @@ This library provides a thin wrapper SDK for the calend.ly API. For up-to-date i
 See [Official Docs](https://developer.calendly.com/docs/getting-your-authentication-token) for more details.
 
 # Quickstart
+Install package in your node project.
+```sh
+npm install --save node-calendly-sdk
+```
+
 ```javascript
 import Calendly from ('node-calendly-sdk')
 
