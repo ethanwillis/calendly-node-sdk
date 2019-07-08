@@ -1,7 +1,7 @@
 var rp = require('request-promise');
-var Webhooks = require('resources/webhooks.js');
-var Events = require('resources/events.js');
-var Users = require('resources/users.js');
+var Webhooks = require('./resources/webhooks.js');
+var Events = require('./resources/events.js');
+var Users = require('./resources/users.js');
 
 module.exports = class Calendly {
 	constructor(api_key) {
