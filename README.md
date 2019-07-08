@@ -14,7 +14,7 @@ npm install --save node-calendly-sdk
 ```
 
 ```javascript
-import Calendly from ('node-calendly-sdk')
+var Calendly = require('node-calendly-sdk')
 
 calendly_client = new Calendly("YOUR-API-TOKEN")
 
@@ -44,7 +44,7 @@ Create a webhook that will receive notifications from Calendly when events are s
 
 ***Usage:***
  ```javascript
-import Calendly from ('node-calendly-sdk')
+var Calendly = require('node-calendly-sdk')
 
 calendly_client = new Calendly("YOUR-API-TOKEN")
 
@@ -111,7 +111,7 @@ Fetches a specific webhook by ID.
 
 ***Usage:***
  ```javascript
-import Calendly from ('node-calendly-sdk')
+var Calendly = require('node-calendly-sdk')
 
 calendly_client = new Calendly("YOUR-API-TOKEN")
 
@@ -149,7 +149,7 @@ List all of the webhooks configured for this account.
 
 ***Usage:***
  ```javascript
-import Calendly from ('node-calendly-sdk')
+var Calendly = require('node-calendly-sdk')
 
 calendly_client = new Calendly("YOUR-API-TOKEN")
 
@@ -167,7 +167,7 @@ Remove a webhook so that it is no longer active.
 
 ***Usage:***
  ```javascript
-import Calendly from ('node-calendly-sdk')
+var Calendly = require('node-calendly-sdk')
 
 calendly_client = new Calendly("YOUR-API-TOKEN")
 
@@ -183,7 +183,7 @@ List all of the configured event types for this account.
 
 ***Usage:***
  ```javascript
-import Calendly from ('node-calendly-sdk')
+var Calendly = require('node-calendly-sdk')
 
 calendly_client = new Calendly("YOUR-API-TOKEN")
 
@@ -198,7 +198,7 @@ List information about this account.
 
 ***Usage:***
  ```javascript
-import Calendly from ('node-calendly-sdk')
+var Calendly = require('node-calendly-sdk')
 
 calendly_client = new Calendly("YOUR-API-TOKEN")
 

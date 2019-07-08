@@ -1,6 +1,6 @@
 var rp = require('request-promise');
 
-export default class Calendly {
+module.exports = class Calendly {
 	constructor(api_key) {
 		this.api_key = api_key
 		this.rp_options = {
