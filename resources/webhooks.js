@@ -11,34 +11,25 @@ module.exports = class Webhooks {
 			events: events
 		}
 
-		rp(function_options)
-			.then(function(result) {
-				return result;
-			})
-	},
+		return rp(function_options)
+	}
+
 	get(id) {
 		let function_options = this.rp_options;
 		function_options.uri = "https://calendly.com/api/v1/hooks/" + id;
 
-		rp(function_options)
-			.then(function(result) {
-				return result;
-			})
-	},
+		return rp(function_options)
+	}
+
 	list() {
 		let function_options = this.rp_options;
 		function_options.uri = "https://calendly.com/api/v1/hooks";
-		rp(function_options)
-			.then(function(result) {
-				return result;
-			})
-	},
+		return rp(function_options)
+	}
+
 	remove(id) {
 		let function_options = this.rp_options;
 		function_options.uri = "https://calendly.com/api/v1/hooks/" + id;
-		rp(function_options)
-			.then(function(result) {
-				return result;
-			})
+		return rp(function_options)
 	}
 }

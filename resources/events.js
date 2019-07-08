@@ -9,9 +9,8 @@ module.exports = class Events {
 		if(do_check_owner) {
 			function_options.uri += "?include=owner";
 		}
-		rp(function_options)
-			.then(function(result) {
-				return result;
-			})
+
+		return rp(function_options)
+
 	}
 }
