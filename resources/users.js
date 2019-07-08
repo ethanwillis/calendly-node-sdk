@@ -1,3 +1,4 @@
+var rp = require('request-promise');
 module.exports = class Users {
 	constructor(options) {
 		this.rp_options = options;

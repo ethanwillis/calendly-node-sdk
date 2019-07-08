@@ -1,3 +1,4 @@
+var rp = require('request-promise');
 module.exports = class Events {
 	constructor(options) {
 		this.rp_options = options;
