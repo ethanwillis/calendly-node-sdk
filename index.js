@@ -15,8 +15,8 @@ module.exports = class Calendly {
 		}
 
 		// Create resources;
-		this.webhooks = Webhooks(this.rp_options);
-		this.events = Events(this.rp_options);
-		this.users = Users(this.rp_options);
+		this.webhooks = new Webhooks(this.rp_options);
+		this.events = new Events(this.rp_options);
+		this.users = new Users(this.rp_options);
 	}
 }
