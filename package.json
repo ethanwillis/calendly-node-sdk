@@ -1,0 +1,28 @@
+{
+  "name": "node-calendly-sdk",
+  "version": "1.0.0",
+  "description": "A wrapper SDK in nodejs for the calendly API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanwillis/calendly-node-sdk.git"
+  },
+  "keywords": [
+    "calendly",
+    "node",
+    "api",
+    "wrapper",
+    "sdk",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Ethan Willis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanwillis/calendly-node-sdk/issues"
+  },
+  "homepage": "https://github.com/ethanwillis/calendly-node-sdk#readme"
+}
