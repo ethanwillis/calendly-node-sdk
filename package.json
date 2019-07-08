@@ -1,6 +1,6 @@
 {
   "name": "node-calendly-sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A wrapper SDK in nodejs for the calendly API",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/ethanwillis/calendly-node-sdk#readme",
   "dependencies": {
+    "request": "^2.88.0",
     "request-promise": "^4.2.4"
   }
 }
